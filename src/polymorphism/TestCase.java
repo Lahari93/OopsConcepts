@@ -6,7 +6,7 @@ public class TestCase {
 		
 		String browserName="firefox";
 	
-		WebDriver driver= TestCase.getBrowserObject(browserName);
+		WebDriver driver= getBrowserObject(browserName);
 		driver.click();//2
 		driver.sendKeys("dfsdf");//3
 		driver.click();//4
